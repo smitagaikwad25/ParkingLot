@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41a52efc-6053-4d53-b764-20ca9bd97b42" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Xbtj6skIJlkUmQV3iEtoIOxCEb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.parking" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.ParkingLotTest.whenGivenVehical_ShouldAddAndRetrunSizeOfParkingLotRemaing">
+    <configuration name="ParkingLotTest.whenGivenVehical_ShouldAddAndRetrunSizeOfParkingLotRemaing" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.parking.ParkingLotTest.whenGivenVehical_ShouldAddAndRetrunSizeOfParkingLotRemaing&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ParkingLotTest.whenGiven_shouldReturnSizeOfIt" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.parking.ParkingLotTest.whenGiven_shouldReturnSizeOfIt&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ParkingLotTest.whenGivenVehical_ShouldAddAndRetrunSizeOfParkingLotRemaing" />
+        <item itemvalue="Gradle.ParkingLotTest.whenGiven_shouldReturnSizeOfIt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41a52efc-6053-4d53-b764-20ca9bd97b42" name="Default Changelist" comment="" />
+      <created>1581326753836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581326753836</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="59" width="847" height="691" key="#Project_Structure" timestamp="1581328634056">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="313" y="59" width="847" height="691" key="#Project_Structure/70.27.1296.741@70.27.1296.741" timestamp="1581328634056" />
+    <state x="526" y="84" width="548" height="640" key="#com.intellij.ide.util.MemberChooser" timestamp="1581333644635">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="526" y="84" width="548" height="640" key="#com.intellij.ide.util.MemberChooser/70.27.1296.741@70.27.1296.741" timestamp="1581333644635" />
+    <state width="1250" height="2" key="GridCell.Tab.0.bottom" timestamp="1581337068705">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="2" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1581337068705" />
+    <state width="1250" height="2" key="GridCell.Tab.0.center" timestamp="1581337068704">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="2" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1581337068704" />
+    <state width="1250" height="2" key="GridCell.Tab.0.left" timestamp="1581337068703">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="2" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1581337068703" />
+    <state width="1250" height="2" key="GridCell.Tab.0.right" timestamp="1581337068705">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="2" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1581337068705" />
+    <state width="1250" height="215" key="GridCell.Tab.1.bottom" timestamp="1581328602501">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="215" key="GridCell.Tab.1.bottom/70.27.1296.741@70.27.1296.741" timestamp="1581328602501" />
+    <state width="1250" height="215" key="GridCell.Tab.1.center" timestamp="1581328602489">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="215" key="GridCell.Tab.1.center/70.27.1296.741@70.27.1296.741" timestamp="1581328602489" />
+    <state width="1250" height="215" key="GridCell.Tab.1.left" timestamp="1581328602488">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="215" key="GridCell.Tab.1.left/70.27.1296.741@70.27.1296.741" timestamp="1581328602488" />
+    <state width="1250" height="215" key="GridCell.Tab.1.right" timestamp="1581328602495">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="215" key="GridCell.Tab.1.right/70.27.1296.741@70.27.1296.741" timestamp="1581328602495" />
+    <state x="489" y="180" width="446" height="447" key="chooseDestDirectoryDialog" timestamp="1581327244416">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="489" y="180" width="446" height="447" key="chooseDestDirectoryDialog/70.27.1296.741@70.27.1296.741" timestamp="1581327244416" />
+    <state x="70" y="27" width="1286" height="741" key="new project wizard" timestamp="1581329846948">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="70" y="27" width="1286" height="741" key="new project wizard/70.27.1296.741@70.27.1296.741" timestamp="1581329846948" />
+  </component>
+</project>
