@@ -6,9 +6,11 @@ import org.junit.Test;
 public class ParkingLotTest {
     @Test
     public void whenGivenVehical_ShouldAddAndRetrunSizeOfParkingLotRemaing() {
+
         ParkingLot parkingLot = new ParkingLot();
-        int parkVehical = parkingLot.parkVehical(new Vehical(1, "car", 1245, "black"));
-        Assert.assertEquals(1, parkVehical);
+        parkingLot.parkVehical(new Vehical(1, "car", 1245, "black"));
+        parkingLot.parkVehical(new Vehical(2, "c", 1245, "black"));
+        Assert.assertEquals(2, parkingLot.map.size());
     }
 }
 

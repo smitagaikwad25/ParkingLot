@@ -6,10 +6,8 @@ public class Vehical {
     public int SrNumbere;
     public String VevicalType;
     public int NumberPlate;
-    public  String colour;
-
-
-//    public Time time;
+    public String colour;
+    public Time time;
 
     public int getSrNumbere() {
         return SrNumbere;
@@ -43,20 +41,20 @@ public class Vehical {
         this.colour = colour;
     }
 
-//    public Time getTime() {
-//        return time;
-//    }
+    public Time getTime() {
+        return time;
+    }
 
-//    public void setTime(Time time) {
-//        this.time = time;
-//    }
+    public void setTime(Time time) {
+        this.time = time;
+    }
 
     public Vehical(int srNumbere, String vevicalType, int numberPlate, String colour) {
         SrNumbere = srNumbere;
         VevicalType = vevicalType;
         NumberPlate = numberPlate;
         this.colour = colour;
-//        this.time = time;
+        this.time = time;
     }
 
     @Override
@@ -66,7 +64,7 @@ public class Vehical {
                 ", VevicalType='" + VevicalType + '\'' +
                 ", NumberPlate=" + NumberPlate +
                 ", colour='" + colour + '\'' +
-//                ", time=" + time +
+                ", time=" + time +
                 '}';
     }
 }

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.parking.ParkingLotTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-10T12:14:57" hostname="admin1-LIVA-Z2V" time="0.028">
+<testsuite name="com.parking.ParkingLotTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-10T13:01:54" hostname="admin1-LIVA-Z2V" time="0.025">
   <properties/>
-  <testcase name="whenGivenVehical_ShouldAddAndRetrunSizeOfParkingLotRemaing" classname="com.parking.ParkingLotTest" time="0.028"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="whenGivenVehical_ShouldAddAndRetrunSizeOfParkingLotRemaing" classname="com.parking.ParkingLotTest" time="0.025"/>
+  <system-out><![CDATA[[Vehical{SrNumbere=1, VevicalType='car', NumberPlate=1245, colour='black', time=null}]
+[Vehical{SrNumbere=1, VevicalType='car', NumberPlate=1245, colour='black', time=null}, Vehical{SrNumbere=2, VevicalType='c', NumberPlate=1245, colour='black', time=null}]
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

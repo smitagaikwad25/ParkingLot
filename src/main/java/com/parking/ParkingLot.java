@@ -3,14 +3,13 @@ package com.parking;
 import java.util.HashMap;
 
 public class ParkingLot {
+    int sizeOfParking = 100;
+    public HashMap<Integer, Vehical> map = new HashMap<>(sizeOfParking);
+    int parkingSlotNumber = 1;
 
-    HashMap<Integer, Vehical> map = new HashMap<>(4);
-
-    public int parkVehical(Vehical vehical) {
-        int parkingSlotNumber = 1;
-        while (map.isEmpty())
-            map.put(parkingSlotNumber,vehical);
-            parkingSlotNumber ++;
-        return map.size();
+    public void parkVehical(Vehical vehical) {
+        map.put(parkingSlotNumber, vehical);
+        parkingSlotNumber++;
+        System.out.println(map.values());
     }
 }
