@@ -4,8 +4,8 @@ import java.sql.Time;
 
 public class Vehical {
     public int SrNumber;
-    public String VevicalType;
-    public int NumberPlate;
+    public String VehicalType;
+    public String VehicalNumber;
     public String colour;
     public Time time;
 
@@ -17,20 +17,20 @@ public class Vehical {
         SrNumber = srNumber;
     }
 
-    public String getVevicalType() {
-        return VevicalType;
+    public String getVehicalType() {
+        return VehicalType;
     }
 
-    public void setVevicalType(String vevicalType) {
-        VevicalType = vevicalType;
+    public void setVehicalType(String vehicalType) {
+        VehicalType = vehicalType;
     }
 
-    public int getNumberPlate() {
-        return NumberPlate;
+    public String getVehicalNumber() {
+        return VehicalNumber;
     }
 
-    public void setNumberPlate(int numberPlate) {
-        NumberPlate = numberPlate;
+    public void setVehicalNumber(String vehicalNumber) {
+        VehicalNumber = vehicalNumber;
     }
 
     public String getColour() {
@@ -49,10 +49,10 @@ public class Vehical {
         this.time = time;
     }
 
-    public Vehical(int srNumber, String vevicalType, int numberPlate, String colour) {
+    public Vehical(int srNumber, String vehicalType, String vehicalNumber, String colour) {
         SrNumber = srNumber;
-        VevicalType = vevicalType;
-        NumberPlate = numberPlate;
+        VehicalType = vehicalType;
+        VehicalNumber = vehicalNumber;
         this.colour = colour;
         this.time = time;
     }
@@ -61,8 +61,8 @@ public class Vehical {
     public String toString() {
         return "Vehical{" +
                 "SrNumbere=" + SrNumber +
-                ", VevicalType='" + VevicalType + '\'' +
-                ", NumberPlate=" + NumberPlate +
+                ", VevicalType='" + VehicalType + '\'' +
+                ", NumberPlate=" + VehicalNumber +
                 ", colour='" + colour + '\'' +
                 ", time=" + time +
                 '}';
