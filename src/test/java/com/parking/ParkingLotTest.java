@@ -60,4 +60,17 @@ public class ParkingLotTest {
         Assert.assertEquals(AirportSecurity.airportSecurityStatus, ParkingStatus.PARKING_FULL);
     }
 
+    @Test
+    public void whenGivenParkingLot_WhenFullOrEmpty_ShouldReturnStatus() {
+        ParkingManagment parkingLot = new ParkingManagment();
+        parkingLot.parkVehical(new Vehical(1, "car", "MH12 1245", "black"));
+        parkingLot.parkVehical(new Vehical(2, "bike", "KH041240", "black"));
+        parkingLot.parkVehical(new Vehical(3, "truck", "MH12 1241", "black"));
+        parkingLot.checkParkingLotsStatus();
+        Assert.assertEquals(AirportSecurity.airportSecurityStatus, ParkingStatus.PARKING_FULL);
+        parkingLot.unParkVehical(new Vehical(1, "car", "MH12 1240", "black"));
+        parkingLot.checkParkingLotsStatus();
+        Assert.assertEquals(AirportSecurity.airportSecurityStatus, ParkingStatus.PARKING_EMPTY);
+    }
+
 }

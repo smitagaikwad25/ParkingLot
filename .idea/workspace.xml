@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41a52efc-6053-4d53-b764-20ca9bd97b42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/parking/Vehical.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/parking/Vehical.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/parking/ParkingLotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/parking/ParkingLotTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.parking.ParkingLotTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.parking.ParkingLotTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.parking.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.parking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.parking.ParkingLotTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.parking.ParkingLotTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/ParkingManegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/ParkingManegment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/Vehical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/Vehical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/ParkingManagment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/ParkingManagment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/parking/ParkingLotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parking/ParkingLotTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -212,22 +194,22 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="451" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.27.1296.741@70.27.1296.741" timestamp="1581401839941" />
-    <state width="1250" height="29" key="GridCell.Tab.0.bottom" timestamp="1581410446140">
+    <state width="1250" height="29" key="GridCell.Tab.0.bottom" timestamp="1581410624121">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="29" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1581410446140" />
-    <state width="1250" height="29" key="GridCell.Tab.0.center" timestamp="1581410446140">
+    <state width="1250" height="29" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1581410624121" />
+    <state width="1250" height="29" key="GridCell.Tab.0.center" timestamp="1581410624119">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="29" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1581410446140" />
-    <state width="1250" height="29" key="GridCell.Tab.0.left" timestamp="1581410446139">
+    <state width="1250" height="29" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1581410624119" />
+    <state width="1250" height="29" key="GridCell.Tab.0.left" timestamp="1581410624118">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="29" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1581410446139" />
-    <state width="1250" height="29" key="GridCell.Tab.0.right" timestamp="1581410446140">
+    <state width="1250" height="29" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1581410624118" />
+    <state width="1250" height="29" key="GridCell.Tab.0.right" timestamp="1581410624120">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="29" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1581410446140" />
+    <state width="1250" height="29" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1581410624120" />
     <state width="1250" height="119" key="GridCell.Tab.1.bottom" timestamp="1581341104147">
       <screen x="70" y="27" width="1296" height="741" />
     </state>

@@ -17,6 +17,7 @@ public class ParkingManagment {
     public void unParkVehical(Vehical vehical) {
         int srNumber = vehical.getSrNumber();
         map.remove(srNumber);
+        parkingLot--;
     }
 
     public void checkParkingLotsStatus() {

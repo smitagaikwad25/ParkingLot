@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.parking.ParkingLotTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-11T08:40:48" hostname="admin1-LIVA-Z2V" time="0.027">
+<testsuite name="com.parking.ParkingLotTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-11T08:59:23" hostname="admin1-LIVA-Z2V" time="0.005">
   <properties/>
-  <testcase name="whenGivenParkingLot_WhenEmpty_ReturnParkingStatus" classname="com.parking.ParkingLotTest" time="0.01"/>
-  <testcase name="whenGivenParkingLot_WhenFull_ReturnParkingStatus" classname="com.parking.ParkingLotTest" time="0.001"/>
-  <testcase name="whenGivenParkingLot_WhenEmpty_ShouldRedirctSecurity" classname="com.parking.ParkingLotTest" time="0.0"/>
-  <testcase name="whenGivenVehical_ShouldPark" classname="com.parking.ParkingLotTest" time="0.001"/>
-  <testcase name="whenGivenVehicalParkingNumber_ShouldUnparkVehical" classname="com.parking.ParkingLotTest" time="0.0"/>
-  <testcase name="whenGivenParkingLot_WhenFull_ShouldRedirctSecurity" classname="com.parking.ParkingLotTest" time="0.009"/>
+  <testcase name="whenGivenParkingLot_WhenFullOrEmpty_ShouldReturnStatus" classname="com.parking.ParkingLotTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
