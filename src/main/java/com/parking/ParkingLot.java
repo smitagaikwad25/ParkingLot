@@ -12,4 +12,10 @@ public class ParkingLot {
         parkingSlotNumber++;
         System.out.println(map.values());
     }
+
+    public void unParkVehical(Vehical vehical) {
+        int srNumbere = vehical.getSrNumbere();
+        map.remove(srNumbere);
+        System.out.println(map);
+    }
 }

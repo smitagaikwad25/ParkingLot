@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.parking.ParkingLotTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-10T13:01:54" hostname="admin1-LIVA-Z2V" time="0.025">
+<testsuite name="com.parking.ParkingLotTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-11T05:07:50" hostname="admin1-LIVA-Z2V" time="0.023">
   <properties/>
-  <testcase name="whenGivenVehical_ShouldAddAndRetrunSizeOfParkingLotRemaing" classname="com.parking.ParkingLotTest" time="0.025"/>
+  <testcase name="whenGivenVehicalParkingNum_ShouldAddAndRetrunSizeOfParkingLotRemaing" classname="com.parking.ParkingLotTest" time="0.023"/>
   <system-out><![CDATA[[Vehical{SrNumbere=1, VevicalType='car', NumberPlate=1245, colour='black', time=null}]
-[Vehical{SrNumbere=1, VevicalType='car', NumberPlate=1245, colour='black', time=null}, Vehical{SrNumbere=2, VevicalType='c', NumberPlate=1245, colour='black', time=null}]
+[Vehical{SrNumbere=1, VevicalType='car', NumberPlate=1245, colour='black', time=null}, Vehical{SrNumbere=2, VevicalType='bike', NumberPlate=1240, colour='black', time=null}]
+{2=Vehical{SrNumbere=2, VevicalType='bike', NumberPlate=1240, colour='black', time=null}}
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
