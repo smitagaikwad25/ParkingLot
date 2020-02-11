@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.parking.ParkingLotTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-11T05:13:11" hostname="admin1-LIVA-Z2V" time="0.006">
+<testsuite name="com.parking.ParkingLotTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-11T06:35:09" hostname="admin1-LIVA-Z2V" time="0.014">
   <properties/>
-  <testcase name="whenGivenVehical_ShouldAddAndRetrunSizeOfParkingLotRemaing" classname="com.parking.ParkingLotTest" time="0.006"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="whenGivenParkingLot_WhenFull_ReturnParkingStatus" classname="com.parking.ParkingLotTest" time="0.014"/>
+  <system-out><![CDATA[Sorry No space available
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

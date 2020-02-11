@@ -3,18 +3,18 @@ package com.parking;
 import java.sql.Time;
 
 public class Vehical {
-    public int SrNumbere;
+    public int SrNumber;
     public String VevicalType;
     public int NumberPlate;
     public String colour;
     public Time time;
 
-    public int getSrNumbere() {
-        return SrNumbere;
+    public int getSrNumber() {
+        return SrNumber;
     }
 
-    public void setSrNumbere(int srNumbere) {
-        SrNumbere = srNumbere;
+    public void setSrNumber(int srNumber) {
+        SrNumber = srNumber;
     }
 
     public String getVevicalType() {
@@ -49,8 +49,8 @@ public class Vehical {
         this.time = time;
     }
 
-    public Vehical(int srNumbere, String vevicalType, int numberPlate, String colour) {
-        SrNumbere = srNumbere;
+    public Vehical(int srNumber, String vevicalType, int numberPlate, String colour) {
+        SrNumber = srNumber;
         VevicalType = vevicalType;
         NumberPlate = numberPlate;
         this.colour = colour;
@@ -60,7 +60,7 @@ public class Vehical {
     @Override
     public String toString() {
         return "Vehical{" +
-                "SrNumbere=" + SrNumbere +
+                "SrNumbere=" + SrNumber +
                 ", VevicalType='" + VevicalType + '\'' +
                 ", NumberPlate=" + NumberPlate +
                 ", colour='" + colour + '\'' +

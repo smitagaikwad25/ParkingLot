@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41a52efc-6053-4d53-b764-20ca9bd97b42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/ParkingStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/parking/ParkingLot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/parking/ParkingLotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/parking/ParkingLotTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.parking.ParkingLotTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.parking.ParkingLotTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.parking.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.parking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.parking.ParkingLotTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.parking.ParkingLotTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/ParkingManegment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/Vehical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/Vehical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/parking/ParkingLotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parking/ParkingLotTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +43,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -50,7 +74,67 @@
       <recent name="com.parking" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ParkingLotTest.whenGivenVehicalParkingNum_ShouldAddAndRetrunSizeOfParkingLotRemaing">
+  <component name="RunManager" selected="Gradle.ParkingLotTest.whenGivenParkingLot_WhenFull_ReturnParkingStatus">
+    <configuration name="ParkingLotTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.parking.ParkingLotTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ParkingLotTest.whenGivenParkingLot_WhenFull_ReturnParkingStatus" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.parking.ParkingLotTest.whenGivenParkingLot_WhenFull_ReturnParkingStatus&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ParkingLotTest.whenGivenParkingLot_WhenFull_ShouldReturnFullMessage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.parking.ParkingLotTest.whenGivenParkingLot_WhenFull_ShouldReturnFullMessage&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ParkingLotTest.whenGivenVehicalParkingNum_ShouldAddAndRetrunSizeOfParkingLotRemaing" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -91,31 +175,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ParkingLotTest.whenGiven_shouldReturnSizeOfIt" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.parking.ParkingLotTest.whenGiven_shouldReturnSizeOfIt&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ParkingLotTest.whenGivenVehicalParkingNum_ShouldAddAndRetrunSizeOfParkingLotRemaing" />
+        <item itemvalue="Gradle.ParkingLotTest.whenGivenParkingLot_WhenFull_ReturnParkingStatus" />
+        <item itemvalue="Gradle.ParkingLotTest" />
+        <item itemvalue="Gradle.ParkingLotTest.whenGivenParkingLot_WhenFull_ShouldReturnFullMessage" />
         <item itemvalue="Gradle.ParkingLotTest.whenGivenVehical_ShouldAddAndRetrunSizeOfParkingLotRemaing" />
-        <item itemvalue="Gradle.ParkingLotTest.whenGiven_shouldReturnSizeOfIt" />
+        <item itemvalue="Gradle.ParkingLotTest.whenGivenVehicalParkingNum_ShouldAddAndRetrunSizeOfParkingLotRemaing" />
       </list>
     </recent_temporary>
   </component>
@@ -141,22 +207,30 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="526" y="84" width="548" height="640" key="#com.intellij.ide.util.MemberChooser/70.27.1296.741@70.27.1296.741" timestamp="1581333644635" />
-    <state width="1250" height="2" key="GridCell.Tab.0.bottom" timestamp="1581397713779">
+    <state x="70" y="27" width="566" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581403036875">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="2" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1581397713779" />
-    <state width="1250" height="2" key="GridCell.Tab.0.center" timestamp="1581397713778">
+    <state x="70" y="27" width="566" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1296.741@70.27.1296.741" timestamp="1581403036875" />
+    <state x="451" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581401839941">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="2" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1581397713778" />
-    <state width="1250" height="2" key="GridCell.Tab.0.left" timestamp="1581397713776">
+    <state x="451" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.27.1296.741@70.27.1296.741" timestamp="1581401839941" />
+    <state width="1250" height="2" key="GridCell.Tab.0.bottom" timestamp="1581402523473">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="2" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1581397713776" />
-    <state width="1250" height="2" key="GridCell.Tab.0.right" timestamp="1581397713779">
+    <state width="1250" height="2" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1581402523473" />
+    <state width="1250" height="2" key="GridCell.Tab.0.center" timestamp="1581402523472">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="2" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1581397713779" />
+    <state width="1250" height="2" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1581402523472" />
+    <state width="1250" height="2" key="GridCell.Tab.0.left" timestamp="1581402523472">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="2" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1581402523472" />
+    <state width="1250" height="2" key="GridCell.Tab.0.right" timestamp="1581402523472">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="2" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1581402523472" />
     <state width="1250" height="119" key="GridCell.Tab.1.bottom" timestamp="1581341104147">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
@@ -185,14 +259,18 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="70" y="27" width="1286" height="741" key="new project wizard/70.27.1296.741@70.27.1296.741" timestamp="1581329846948" />
+    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1581402003025">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1581402003025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/parking/ParkingLotTest.java</url>
-          <line>9</line>
-          <properties class="com.parking.ParkingLotTest" method="whenGivenVehical_ShouldAddAndRetrunSizeOfParkingLotRemaing">
+          <line>8</line>
+          <properties class="com.parking.ParkingLotTest" method="whenGivenVehical_ShouldPark">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
