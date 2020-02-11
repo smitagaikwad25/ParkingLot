@@ -4,13 +4,15 @@ import java.util.HashMap;
 
 public class ParkingManegment {
     int sizeOfParking = 2;
-    int parkingSlotNumber = 0;
+    int parkingLot = 0;
+
     public HashMap<Integer, Vehical> map = new HashMap<>(sizeOfParking);
     public ParkingStatus parkingLotStatus = ParkingStatus.PARKING_EMPTY;
 
+
     public void parkVehical(Vehical vehical) {
-        map.put(parkingSlotNumber, vehical);
-        parkingSlotNumber++;
+        map.put(parkingLot, vehical);
+        parkingLot++;
     }
 
     public void unParkVehical(Vehical vehical) {
@@ -19,9 +21,12 @@ public class ParkingManegment {
     }
 
     public void checkParkingLotsStatus() {
-        if (parkingSlotNumber > sizeOfParking) {
+        if (parkingLot > sizeOfParking) {
             parkingLotStatus = ParkingStatus.PARKING_FULL;
+            AirportSecurity.airportSecurityStatus = parkingLotStatus;
+        } else {
+            parkingLotStatus = ParkingStatus.PARKING_EMPTY;
+            AirportSecurity.airportSecurityStatus = parkingLotStatus;
         }
-        parkingLotStatus = ParkingStatus.PARKING_EMPTY;
     }
 }
