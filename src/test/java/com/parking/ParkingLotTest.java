@@ -7,7 +7,7 @@ import org.junit.Test;
 public class ParkingLotTest {
 
     @Test
-    public void whenGivenVehical_ShouldAddAndRetrunSizeOfParkingLotRemaing() {
+    public void whenGivenVehical_ShouldPark() {
         ParkingLot parkingLot = new ParkingLot();
         parkingLot.parkVehical(new Vehical(1, "car", 1245, "black"));
         parkingLot.parkVehical(new Vehical(2, "bike", 1240, "black"));
@@ -15,7 +15,7 @@ public class ParkingLotTest {
     }
 
     @Test
-    public void whenGivenVehicalParkingNum_ShouldAddAndRetrunSizeOfParkingLotRemaing() {
+    public void whenGivenVehicalParkingNumber_ShouldUnparkVehical() {
         ParkingLot parkingLot = new ParkingLot();
         parkingLot.parkVehical(new Vehical(1, "car", 1245, "black"));
         parkingLot.parkVehical(new Vehical(2, "bike", 1240, "black"));
