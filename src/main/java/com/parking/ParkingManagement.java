@@ -2,16 +2,15 @@ package com.parking;
 
 import java.util.HashMap;
 
-public class ParkingManagment {
+public class ParkingManagement {
     int sizeOfParking = 2;
     int parkingLot = 0;
 
     public HashMap<Integer, Vehical> map = new HashMap<>(sizeOfParking);
     public ParkingStatus parkingLotStatus = ParkingStatus.PARKING_EMPTY;
 
-    public void parkVehical(Vehical vehical) {
-        map.put(parkingLot, vehical);
-        parkingLot++;
+    public boolean parkVehical(Object vehical) {
+        return true;
     }
 
     public void unParkVehical(Vehical vehical) {
