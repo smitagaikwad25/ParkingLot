@@ -8,15 +8,19 @@ public class ParkingManagement {
 
     public HashMap<Integer, Vehical> map = new HashMap<>(sizeOfParking);
     public ParkingStatus parkingLotStatus = ParkingStatus.PARKING_EMPTY;
+    private Object vehicle;
 
-    public boolean parkVehical(Object vehical) {
+    public boolean parkVehicle(Object vehicle) {
+        this.vehicle = vehicle;
         return true;
     }
 
-    public void unParkVehical(Vehical vehical) {
-        int srNumber = vehical.getSrNumber();
-        map.remove(srNumber);
-        parkingLot--;
+    public boolean unParkVehicle(Object vehicle) {
+        if (this.vehicle.equals(vehicle)) {
+            this.vehicle = null;
+            return true;
+        }
+        return false;
     }
 
     public void checkParkingLotsStatus() {
