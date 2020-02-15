@@ -1,25 +1,26 @@
 package com.parking;
 
-import java.util.HashMap;
-
 public class ParkingManagement {
     int sizeOfParking = 2;
     int parkingLot = 0;
 
-    public HashMap<Integer, Vehical> map = new HashMap<>(sizeOfParking);
     public ParkingStatus parkingLotStatus = ParkingStatus.PARKING_EMPTY;
     private Object vehicle;
 
-    public boolean parkVehicle(Object vehicle) {
+    public void parkVehicle(Object vehicle) throws ParkingLotException {
         if (this.vehicle != null)
-            return false;
+            throw new ParkingLotException("Parking Lot Is Full");
         this.vehicle = vehicle;
-        return true;
     }
 
-    public boolean unParkVehicle(Object vehicle) {
-        if (this.vehicle == null)
-            return false;
+    public boolean isVehiclePark(Object vehicle) {
+        if (this.vehicle.equals(vehicle))
+            return true;
+        return false;
+    }
+
+    public boolean unParkVehicle(Object vehicle) throws ParkingLotException {
+        if (this.vehicle == null) return false;
         if (this.vehicle.equals(vehicle)) {
             this.vehicle = null;
             return true;
