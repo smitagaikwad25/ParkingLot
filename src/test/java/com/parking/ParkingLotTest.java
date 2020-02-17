@@ -12,7 +12,7 @@ public class ParkingLotTest {
     @Before
     public void setUp(){
         vehicle = new Object();
-        parkingManagement = new ParkingManagement();
+        parkingManagement = new ParkingManagement(1);
     }
 
     @Test
@@ -22,7 +22,6 @@ public class ParkingLotTest {
             boolean isVehiclePark = parkingManagement.isVehiclePark(vehicle);
             Assert.assertTrue(isVehiclePark);
         }catch (ParkingLotException e){
-            e.getStackTrace();
         }
     }
 
@@ -44,8 +43,21 @@ public class ParkingLotTest {
     }
 
     @Test
+    public void givenParkingLot_whenFull_ShuldInformToOwner() {
+        ParkingLotOwner parkingLotOwner = new ParkingLotOwner();
+        parkingManagement.OwnerOfParking(parkingLotOwner);
+        try {
+            parkingManagement.parkVehicle(vehicle);
+            parkingManagement.parkVehicle(new Object());
+        } catch (ParkingLotException e) {
+            boolean parkingFull = parkingLotOwner.isParkingFull();
+            Assert.assertTrue(parkingFull);
+        }
+    }
+
+    @Test
     public void whenGivenParkingLot_WhenFull_ReturnParkingStatus() throws ParkingLotException {
-        ParkingManagement parkingLot = new ParkingManagement();
+        ParkingManagement parkingLot = new ParkingManagement(1);
         parkingLot.parkVehicle(new Vehical(1, "car", "MH12 1245", "black"));
         parkingLot.parkVehicle(new Vehical(2, "bike", "MH12 1240", "black"));
         parkingLot.parkVehicle(new Vehical(3, "truck", "MH12 1241", "black"));
@@ -55,7 +67,7 @@ public class ParkingLotTest {
 
     @Test
     public void whenGivenParkingLot_WhenEmpty_ReturnParkingStatus() throws ParkingLotException {
-        ParkingManagement parkingLot = new ParkingManagement();
+        ParkingManagement parkingLot = new ParkingManagement(1);
         parkingLot.parkVehicle(new Vehical(1, "car", "MH12 1245", "black"));
         parkingLot.parkVehicle(new Vehical(2, "bike", "KH04 1240", "black"));
         parkingLot.checkParkingLotsStatus();
@@ -64,7 +76,7 @@ public class ParkingLotTest {
 
     @Test
     public void whenGivenParkingLot_WhenEmpty_ShouldRedirctSecurity() throws ParkingLotException {
-        ParkingManagement parkingLot = new ParkingManagement();
+        ParkingManagement parkingLot = new ParkingManagement(1);
         parkingLot.parkVehicle(new Vehical(1, "car", "MH12 1245", "black"));
         parkingLot.parkVehicle(new Vehical(2, "bike", "KH04 1240", "black"));
         parkingLot.checkParkingLotsStatus();
@@ -73,7 +85,7 @@ public class ParkingLotTest {
 
     @Test
     public void whenGivenParkingLot_WhenFull_ShouldRedirctSecurity() throws ParkingLotException {
-        ParkingManagement parkingLot = new ParkingManagement();
+        ParkingManagement parkingLot = new ParkingManagement(1);
         parkingLot.parkVehicle(new Vehical(1, "car", "MH12 1245", "black"));
         parkingLot.parkVehicle(new Vehical(2, "bike", "KH041240", "black"));
         parkingLot.parkVehicle(new Vehical(3, "truck", "MH12 1241", "black"));
@@ -83,7 +95,7 @@ public class ParkingLotTest {
 
     @Test
     public void whenGivenParkingLot_WhenFullOrEmpty_ShouldReturnStatus() throws ParkingLotException {
-        ParkingManagement parkingLot = new ParkingManagement();
+        ParkingManagement parkingLot = new ParkingManagement(1);
         parkingLot.parkVehicle(new Vehical(1, "car", "MH12 1245", "black"));
         parkingLot.parkVehicle(new Vehical(2, "bike", "KH041240", "black"));
         parkingLot.parkVehicle(new Vehical(3, "truck", "MH12 1241", "black"));
