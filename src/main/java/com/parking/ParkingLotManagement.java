@@ -4,10 +4,7 @@ public class ParkingLotManagement {
     private final int actualCapacity;
     private int currentCapacity;
     private ParkingLotOwner parkingLotOwner;
-    int sizeOfParking = 2;
-    int parkingLot = 0;
 
-    public ParkingStatus parkingLotStatus = ParkingStatus.PARKING_EMPTY;
     private Object vehicle;
 
     public ParkingLotManagement(int capacity) {
@@ -42,16 +39,5 @@ public class ParkingLotManagement {
         }
         return false;
     }
-
-    public void checkParkingLotsStatus() {
-        if (parkingLot > sizeOfParking) {
-            parkingLotStatus = ParkingStatus.PARKING_FULL;
-            AirportSecurity.airportSecurityStatus = parkingLotStatus;
-        } else {
-            parkingLotStatus = ParkingStatus.PARKING_EMPTY;
-            AirportSecurity.airportSecurityStatus = parkingLotStatus;
-        }
-    }
-
 
 }
