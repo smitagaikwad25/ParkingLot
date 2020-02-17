@@ -1,8 +1,8 @@
 package com.parking;
 
-public class ParkingManagement {
+public class ParkingLotManagement {
     private final int actualCapacity;
-    private  int currentCapacity;
+    private int currentCapacity;
     private ParkingLotOwner parkingLotOwner;
     int sizeOfParking = 2;
     int parkingLot = 0;
@@ -10,13 +10,13 @@ public class ParkingManagement {
     public ParkingStatus parkingLotStatus = ParkingStatus.PARKING_EMPTY;
     private Object vehicle;
 
-    public ParkingManagement(int capacity) {
-    this.actualCapacity = capacity;
-    this.currentCapacity = 0;
+    public ParkingLotManagement(int capacity) {
+        this.actualCapacity = capacity;
+        this.currentCapacity = 0;
     }
 
     public void OwnerOfParking(ParkingLotOwner parkingLotOwner) {
-     this.parkingLotOwner = parkingLotOwner;
+        this.parkingLotOwner = parkingLotOwner;
     }
 
     public void parkVehicle(Object vehicle) throws ParkingLotException {

@@ -8,6 +8,6 @@ public class ParkingLotOwner {
     }
 
     public boolean isParkingFull() {
-       return  this.isParkingLotFull;
+        return this.isParkingLotFull;
     }
 }
